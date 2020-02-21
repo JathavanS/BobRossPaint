@@ -315,7 +315,7 @@ public class View implements EventHandler<ActionEvent> {
 			//loads the youtube video with autoplay on, user controls off, annotations off
 			this.webView.getEngine().load(
 					"https://www.youtube.com/embed/lLWEXRAnQd0"
-					+ "?autoplay=1;controls=0;iv_load_policy=3"
+					+ "?autoplay=1;iv_load_policy=3"
 					);
 			// disables users ability to change the program's size
 			this.stage.setResizable(false);
